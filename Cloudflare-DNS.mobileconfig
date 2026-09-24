@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Cloudflare encrypted DNS (DNS-over-HTTPS, IPv4 + IPv6) for iPhone, iPad and Mac. -->
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://cloudflare-dns.com/dns-query</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>1.1.1.1</string>
+					<string>1.0.0.1</string>
+					<string>2606:4700:4700::1111</string>
+					<string>2606:4700:4700::1001</string>
+				</array>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Cloudflare DNS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.github.benburnsred.cloudflare-dns-setup.dns</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>A1A60615-3A0C-4D61-A5A0-16050F0BE31D</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Uses Cloudflare's free, private, encrypted DNS (1.1.1.1) on Wi-Fi and mobile data.</string>
+	<key>PayloadDisplayName</key>
+	<string>Cloudflare DNS</string>
+	<key>PayloadIdentifier</key>
+	<string>com.github.benburnsred.cloudflare-dns-setup</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>9328424C-9A01-47FD-A6D4-1EDC6364B46B</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
